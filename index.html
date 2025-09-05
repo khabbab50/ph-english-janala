@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>English Janala</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+
+    <!-- daisyui and tailwndcss cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font-awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="">
+      <div class="navbar bg-base-100 shadow-sm">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16"
+                />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+            >
+              <li>
+                <a href="" class=""
+                  ><i class="fa-solid fa-circle-question"></i> FAQ</a
+                >
+              </li>
+              <li>
+                <a href="" class=""
+                  ><i class="fa-solid fa-book-open"></i>Learn</a
+                >
+              </li>
+              <li>
+                <a href="" class=""
+                  ><i class="fa-solid fa-right-from-bracket"></i> Logout</a
+                >
+              </li>
+            </ul>
+          </div>
+          <a href="" class="text-xl flex gap-1 items-center">
+            <span class="text-lg font-bold">English</span>
+            <img src="assets/logo.png" alt="" />
+            <span class="bangla-font text-lg font-bold">জানালা</span>
+          </a>
+        </div>
+        <div class="navbar-end hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 space-x-5">
+            <li>
+              <a href="" class="btn btn-outline btn-primary"
+                ><i class="fa-solid fa-circle-question"></i> FAQ</a
+              >
+            </li>
+            <li>
+              <a href="" class="btn btn-outline btn-primary"
+                ><i class="fa-solid fa-book-open"></i>Learn</a
+              >
+            </li>
+            <li>
+              <a href="" class="btn btn-outline btn-primary"
+                ><i class="fa-solid fa-right-from-bracket"></i> Logout</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- header section end -->
+
+    <!-- main section start -->
+    <main>
+      <!-- hero section start -->
+      <section
+        class="flex flex-col-reverse md:flex-row gap-20 items-center w-11/12 mx-auto"
+      >
+        <div class="flex-1 space-y-5 text-center md:text-left">
+          <h2 class="text-4xl font-bold">
+            <span class="text-blue-600">English</span> is Easy!!
+          </h2>
+          <p class="bangla-font text-lg">
+            আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা
+            আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে
+            অন্য একটি Level এ
+          </p>
+          <form class="flex flex-col space-y-5 w-full md:w-1/2">
+            <input
+              type="text"
+              placeholder="Enter Your Name"
+              class="input input-md w-full"
+            />
+            <input
+              type="password"
+              placeholder=".................."
+              class="input input-md w-full"
+            />
+            <button class="btn btn-primary w-full md:w-1/2">Get Started</button>
+          </form>
+        </div>
+        <div class="flex-1">
+          <img src="assets/hero-student.png" alt="" />
+        </div>
+      </section>
+      <!-- hero section end -->
+
+      <!-- lesion section start -->
+      <section class="my-20">
+        <h2 class="text-4xl font-bold text-center mb-9">
+          <span class="text-blue-600">Let's</span> Let's Learn Vocabularies!!
+        </h2>
+
+        <!-- lesion btn container start -->
+        <div
+          id="lesion_btn_container"
+          class="flex flex-wrap justify-center gap-5"
+        ></div>
+        <!-- lesion btn container end -->
+
+        <!-- search start -->
+        <div class="join flex justify-center items-center mt-8">
+          <div>
+            <label class="input validator join-item">
+              <input
+                id="searcch_input"
+                type="text"
+                placeholder="Search Words..."
+                required
+              />
+            </label>
+          </div>
+          <button id="searchBtn" class="btn btn-primary join-item">
+            Search
+          </button>
+        </div>
+        <!-- search end -->
+
+        <!-- loading start -->
+        <section
+          id="loading"
+          class="flex justify-center items-center py-10 hidden"
+        >
+          <span class="loading loading-spinner loading-xl"></span>
+        </section>
+        <!-- loading end -->
+
+        <!-- lesion word container start -->
+        <div class="my-20">
+          <div
+            id="lesion_word_container"
+            class="bg-slate-100 p-10 w-11/12 mx-auto grid md:grid-cols-3 gap-6 place-content-center"
+          >
+            <div
+              id="emty_alart"
+              class="col-span-full text-center bangla-font space-y-6"
+            >
+              <p class="text-[#79716B] text-sm">
+                আপনি এখনো কোন Lesson Select করেন
+              </p>
+              <h2 class="text-3xl bangla-font font-medium">
+                একটি Lesson Select করুন।
+              </h2>
+            </div>
+          </div>
+        </div>
+        <!-- lesion word container start -->
+
+        <!-- modal start -->
+        <!-- You can open the modal using ID.showModal() method -->
+        <dialog id="my_modal_3" class="modal">
+          <div id="modal_box" class="modal-box p-10"></div>
+        </dialog>
+        <!-- modal end -->
+      </section>
+      <!-- lesion section end -->
+
+      <!-- Frequently asked questions start -->
+      <section class="w-11/12 mx-auto my-10">
+        <h2 class="text-4xl font-bold text-center mb-9">
+          <span class="text-blue-600">Frequently</span> Asked Questions
+        </h2>
+
+        <div class="space-y-4 text-xl">
+          <div
+            class="collapse collapse-plus bg-base-100 border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" checked="checked" />
+            <div class="collapse-title font-semibold bangla-font">
+              এই কোর্স/ওয়েবসাইটে কীভাবে ইংরেজি শেখানো হয়?
+            </div>
+            <div class="collapse-content text-sm bangla-font">
+              ভিডিও লেসন, প্র্যাকটিস এক্সারসাইজ, কুইজ এবং লাইভ ক্লাসের মাধ্যমে
+              শেখানো হয়।
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-100 border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold bangla-font">
+              এই কোর্সটি কি একদম নতুন শিক্ষার্থীদের জন্য উপযোগী?
+            </div>
+            <div class="collapse-content text-sm bangla-font">
+              হ্যাঁ, আমাদের কোর্স Beginner থেকে Advanced—সব লেভেলের জন্য সাজানো।
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-100 border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold bangla-font">
+              ক্লাস কি অনলাইনে নাকি অফলাইনে হয়?
+            </div>
+            <div class="collapse-content text-sm bangla-font">
+              ক্লাস সম্পূর্ণ অনলাইন। যেকোনো জায়গা থেকে মোবাইল বা কম্পিউটার দিয়ে
+              অংশ নিতে পারবেন।
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-100 border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold bangla-font">
+              ফি কত এবং কীভাবে পরিশোধ করতে হবে?
+            </div>
+            <div class="collapse-content text-sm bangla-font">
+              কোর্স অনুযায়ী ফি ভিন্ন হতে পারে। পেমেন্ট আপনি
+              বিকাশ/কার্ড/স্ট্রাইপের মাধ্যমে করতে পারবেন।
+            </div>
+          </div>
+          <div
+            class="collapse collapse-plus bg-base-100 border border-base-300"
+          >
+            <input type="radio" name="my-accordion-3" />
+            <div class="collapse-title font-semibold bangla-font">
+              আমি কি মোবাইল থেকে কোর্স করতে পারবো?
+            </div>
+            <div class="collapse-content text-sm bangla-font">
+              অবশ্যই, আমাদের প্ল্যাটফর্ম মোবাইল-ফ্রেন্ডলি।
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Frequently asked questions end -->
+    </main>
+    <!-- main section end -->
+
+    <!-- footer section start -->
+     <footer></footer>
+    <!-- footer section end -->
+
+    <!-- custom js file link -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
