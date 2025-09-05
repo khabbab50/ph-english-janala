@@ -1,5 +1,7 @@
 # ENGLISH <img width="25px" src="./assets/logo.png" /> JANALA
 
+![](./assets/Screenshot_1.png)
+
 ---
 
 ## ⚡ API Endpoints
